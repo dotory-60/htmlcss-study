@@ -1,32 +1,32 @@
 * {
-    text-align: center;
-    color: white;
-    box-sizing: border-box;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
 }
 
 html {
-    background-color: rgb(50, 67, 50);
+  background-color: rgb(50, 67, 50);
 }
 
 body {
-    width: 40%;
-    margin: auto; /* 너비에서 남는 여백을 동일하게 분배 */
-    margin-top: 30px;
-    border: 1px solid white;
-    background-color: rgb(23, 38, 23);
+  width: 40%;
+  margin: auto; /* 너비에서 남는 여백을 동일하게 분배 */
+  margin-top: 30px;
+  border: 1px solid white;
+  background-color: rgb(23, 38, 23);
 }
 
 #python-text {
-    color: black;
+  color: black;
 }
 
 img {
-    width: 200px;
-    height: 200px;
-    border-radius: 12px;
-    border: 5px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  border: 5px solid white;
 }
 
 figcaption {
-    font-size: 14px;
+  font-size: 14px;
 }

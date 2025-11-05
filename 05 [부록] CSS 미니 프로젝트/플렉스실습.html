@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      ul {
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+        height: 200px;
+        border: 1px solid black;
+
+        /* flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: row wrap; */
+        justify-content: space-around;
+        align-items: center;
+      }
+      li:nth-child(3) {
+        align-self: flex-start;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>동물들</h2>
+    <ul>
+      <li>물오리</li>
+      <li>물까치</li>
+      <li>고라니</li>
+      <li>누룩뱀</li>
+      <li>너구리</li>
+    </ul>
+  </body>
+</html>

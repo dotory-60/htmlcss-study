@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+      }
+      .rel {
+        text-align: center;
+        background-color: red;
+        position: relative;
+        left: 50px;
+      }
+      .abs {
+        text-align: center;
+        background-color: yellow;
+        position: absolute;
+        top: 200px;
+        right: 20px;
+      }
+      .scroll {
+        text-align: center;
+        background-color: blue;
+        height: 2000px;
+      }
+      .fixed {
+        text-align: center;
+        background-color: green;
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="abs">
+      <h1>abs</h1>
+      <p>
+        position 속성을 가진 요소를 기준으로 위치를 이동한다. 단, 상위 요소 중에
+        position 속성을 가진 요소가 없다면 그냥 화면을 기준으로 이동한다.
+      </p>
+    </div>
+    <div class="rel">
+      <h1>rel</h1>
+      <p>relative: 원래 위치 기준</p>
+    </div>
+    <div class="scroll"><h1>scroll</h1></div>
+    <div class="fixed">
+      <h1>fixed</h1>
+      <p>흐름 무시, 고정</p>
+    </div>
+  </body>
+</html>
